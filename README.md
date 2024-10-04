@@ -51,7 +51,6 @@ The server will start on http://localhost:8080 ***by default***. You can specify
 
 ## Data Models
 ### Article
-- ID: Unique identifier for the article (the number of added article).
 - Title
 - Content
 - ID
