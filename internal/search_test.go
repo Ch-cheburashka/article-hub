@@ -33,8 +33,8 @@ func TestSearch(t *testing.T) {
 		},
 	}
 	for _, test := range tests {
-		container.AddArticle(article1)
-		container.AddArticle(article2)
+		_ = container.AddArticle(article1)
+		_ = container.AddArticle(article2)
 		t.Run(test.name, func(t *testing.T) {})
 		if test.name == "Empty container" {
 			emptyContainer := NewContainer()
